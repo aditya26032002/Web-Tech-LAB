@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .links a{
+            display: block;
+            margin: 10px;
+            color: green;
+            text-decoration: none;
+        }
+        .links a:active{
+            color: red;
+        }
+        .links a:visited{
+            color: blue;
+        }
+        img{
+            height: 300px;
+            display: block;
+            margin: auto;
+        }
+        .links{
+            border: 2px solid black;
+            border-top: 0px;
+            border-bottom: 0px;
+        }
+        .image{
+            border: 2px solid black;
+            border-top: 0px;
+            border-bottom: 0px;
+        }
+        .inl_block{
+            display: flex;
+            flex-direction: row;
+        }
+        .links{
+            width: 33%;
+        }
+        .info{
+            width: 34%;
+        }
+        .image{
+            width: 33%;
+        }
+    </style>
+</head>
+<body>
+    <header style="border: 2px solid black;">
+        <center><h2>Aditya Sahni</h2></center>
+    </header>
+
+    <div class="inl_block">
+        <div class="links">
+            <a href="PRACTICAL-1.html" target="frame">Objectives</a>
+            <a href="personal_info.html" target="frame">Personal Information</a>
+            <a href="family.html" target="frame">Family Information</a>
+            <a href="Education.html" target="frame">Education Information</a>
+            <a href="Experiences.html" target="frame">Experience</a>
+            <a href="Achievements.html" target="frame">Achievements</a>
+            <a href="other.html" target="frame">Others</a>
+        </div>
+
+        <div class="info">
+            <iframe name="frame" src="" frameborder="0" height="100%" width="100%"></iframe>
+        </div>
+
+        <div class="image">
+            <img src="image/Profile_Photo.jpg" alt="Unable to load image">
+        </div>
+    </div>
+
+    <footer style="border: 2px solid black;">
+        <center><p>Mobile no: 9065272061 | Gmail: 201442@juitsolan.in | <a href="#">Instagram</a></p></center>
+    </footer>
+</body>
+</html>

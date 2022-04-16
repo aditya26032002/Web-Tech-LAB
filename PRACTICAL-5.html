@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>201442</title>
+    <link rel="icon" type="image/x-icon" href="image/favicon.ico">
+</head>
+<style>
+    html{
+        scroll-behavior: smooth;
+    }
+    body {
+        background-color: rgb(184, 166, 201);
+    }
+
+    h1 {
+        color: red;
+        text-align: center;
+    }
+
+    img {
+        display: block;
+        margin: auto;
+        height: 200px;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    table,
+    th,
+    td {
+        border: 2px solid black;
+        border-collapse: collapse;
+    }
+
+    .left_cell{
+        border-color: teal;
+        background-color: yellowgreen;
+        text-align: center;
+    }
+    
+    .rightCell{
+        border-color: black;
+        background-color: violet;
+        text-align: right;
+    }
+
+    .PersonalInfo td {
+        text-align: right;
+    }
+
+    .education {
+        background-color: rgb(136, 199, 199);
+        border: 3px solid white;
+    }
+
+    .curricular {
+        background-color: rgb(233, 213, 159);
+    }
+
+    .social {
+        background-color: rgb(128, 197, 163);
+    }
+
+    .social_button {
+        background-color: rgb(117, 141, 206);
+        display: inline-block;
+        border: 1px solid black;
+        border-radius: 8px;
+        padding: 8px 20px;
+        margin: 3px 8px;
+        cursor: pointer;
+    }
+
+    .social_button:hover {
+        background-color: rgb(250, 151, 39);
+    }
+
+    .social_button a {
+        color: black;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .button {
+        background-color: rgb(114, 190, 152);
+        display: inline-block;
+        border: 1px solid rgb(37, 32, 32);
+        border-radius: 8px;
+        padding: 10px 8px;
+        cursor: pointer;
+    }
+
+    .button:hover {
+        background-color: rgb(127, 199, 60);
+    }
+
+    .button a {
+        color: black;
+        text-decoration: none;
+        font-size: 14px;
+    }
+</style>
+
+<body>
+    <div id="start">
+        <h1>Aditya Sahni</h1>
+        <img src="image/Profile_Photo.jpg" alt="Some problem with loading profile photo.">
+        <hr>
+    </div>
+
+    <div>
+        <table class="PersonalInfo">
+            <tr>
+                <th class="left_cell">Date of Birth</th>
+                <td class="rightCell">26 Jan 2003</td>
+            </tr>
+            <tr>
+                <th class="left_cell">Birth Place</th>
+                <td class="rightCell">Muzaffarpur</td>
+            </tr>
+            <tr>
+                <th class="left_cell">Father Name</th>
+                <td class="rightCell">ML Sahni</td>
+            </tr>
+            <tr>
+                <th class="left_cell">Mother Name</th>
+                <td class="rightCell">Sarita Sahni</td>
+            </tr>
+            <tr>
+                <th class="left_cell">Permanent Address</th>
+                <td class="rightCell">Muzaffarpur, Bihar(842001)</td>
+            </tr>
+            <tr>
+                <th class="left_cell">Contact Number</th>
+                <td class="rightCell">9065272061</td>
+            </tr>
+        </table>
+        <hr>
+    </div>
+
+    <div>
+        <h1>Education Detail:</h1>
+        <table class="education">
+            <tr>
+                <th class="left_cell"></th>
+                <th class="left_cell">School Name</th>
+                <th class="left_cell">Marks Scored</th>
+                <th class="rightCell">Favourite Subject</th>
+                <th class="rightCell">Marksheet Snapshot</th>
+            </tr>
+            <tr>
+                <th class="left_cell">10<sup>th</sup></th>
+                <td class="left_cell">SRAP, Chakia</td>
+                <td class="left_cell">385</td>
+                <td class="rightCell">Maths</td>
+                <td class="rightCell"><img src="image/10th_marksheet.jpeg" alt="Unable to fetch"></td>
+            </tr>
+            <tr>
+                <th class="left_cell">12<sup>th</sup></th>
+                <td class="left_cell">SRAP, Chakia</td>
+                <td class="left_cell">435</td>
+                <td class="rightCell">Physics</td>
+                <td class="rightCell"><img src="image/12th_marksheet.jpeg" alt="Unable to fetch"></td>
+            </tr>
+        </table>
+        <p><b>---Education details table---</b></p>
+        <div class="button" style="float: right;"><a href="#start">Move to Top</a></div>
+        <hr>
+    </div>
+
+    <div class="curricular">
+        <h1>Extra Curricular Activities:</h1>
+        <div class="button" style="float: right;"><a href="#start">Move to Top</a></div>
+        <ul>
+            <li>Football</li>
+            <li>Pencil Sketching</li>
+            <li>Photography</li>
+            <li>Touring</li>
+        </ul>
+        <hr>
+    </div>
+
+    <div class="social">
+        <h1>Social Media Profiles:</h1>
+        <div class="button" style="float: right;"><a href="#start">Move to Top</a></div>
+        <div class="social_button"><a href="#" target="_blank">Facebook</a></div>
+        <div class="social_button"><a href="#" target="_blank">Linkedin</a></div>
+    </div>
+
+</body>
+
+</html>

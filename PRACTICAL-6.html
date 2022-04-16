@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRACTICAL-6</title>
+    <style>
+        header{
+            text-align: center;
+            text-decoration: underline;
+            text-decoration-color: grey;
+        }
+        .to_bold{
+            font-weight: bold;
+        }
+        #year{
+            overflow: hidden;
+        }
+        .contact{
+            border: 2px solid grey;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Student Information Form</h1>
+    </header>
+
+    <form action="#">
+        <label for="NAME" class="to_bold">Enter your NAME:</label>
+        <input type="text" name="NAME" id=""><br><br>
+
+        <label for="ROLL" class="to_bold">Enter your ENROLMENT NUMBER:</label>
+        <input type="text" name="ROLL" id="" size="5"><br><br>
+
+        <label for="PASSWORD" class="to_bold">Enter your PASSWORD (Must be more than 10 characters):</label>
+        <input type="text" name="PASSWORD" id="" size="5"><br><br>
+
+        <label for="COURSE" class="to_bold">Choose your COURSE-</label><br>
+        <input type="checkbox" name="B.tech" id="">
+        <label for="B.tech">B.tech</label><br>
+        <input type="checkbox" name="M.tech" id="">
+        <label for="M.tech">M.tech</label><br><br>
+
+        <label for="year" class="to_bold">Select your year:</label><br>
+        <select name="year" id="year" size="4">
+            <option value="1st">1st</option>
+            <option value="2nd">2nd</option>
+            <option value="3rd">3rd</option>
+            <option value="4th">4th</option>
+        </select><br><br>
+
+        <label for="branch" class="to_bold">Select your branch:</label><br>
+        <select name="branch" id="">
+            <option value="cse">CSE</option>
+            <option value="it">IT</option>
+            <option value="ece">ECE</option>
+            <option value="bt">Bio-Tech</option>
+        </select><br><br>
+
+        <label class="to_bold">Choose your hostel</label><br>
+        <input type="radio" name="hostel" id="azad">
+        <label for="azad">Aazad Bhawan</label><br>
+        <input type="radio" name="hostel" id="geeta">
+        <label for="geeta">Geeta Bhawan</label><br>
+        <input type="radio" name="hostel" id="parmar">
+        <label for="parmar">Parmar Bhawan</label><br>
+        <input type="radio" name="hostel" id="shastri">
+        <label for="shastri">Shastri Bhawan</label><br>
+        <input type="radio" name="hostel" id="mahiya">
+        <label for="mahiya">Mahiya Bhawan</label><br>
+        <input type="radio" name="hostel" id="day_scholar">
+        <label for="day_scholar">Day Scholar</label><br><br>
+
+        <label for="words" class="to_bold">Tell us for fields of interests:</label><br>
+        <textarea name="words" id="words" cols="50" rows="10"></textarea><br><br>
+
+        <label for="photograph" class="to_bold">Upload your photograph:</label><br>
+        <input type="file" name="photograph" id="photograph" placeholder="chooses" accept="image/*"><br><br>
+
+        <div class="contact">
+            <p class="to_bold">Contact Information</p>
+            <label for="mail" class="to_bold">Email ID:</label>
+            <input type="text" name="mail" id="email">
+            <label for="domain" class="to_bold">@</label>
+            <input type="text" name="domain" id="domain" size="6"><br><br>
+
+            <label for="mobileno" class="to_bold">Mobile: +91</label>
+            <input type="number" name="mobileno" id="mobile">
+        </div>
+    </form>
+</body>
+</html>
